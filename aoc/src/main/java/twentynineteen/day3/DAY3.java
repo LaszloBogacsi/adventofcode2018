@@ -1,12 +1,7 @@
-package main.java.day3;
+package main.java.twentynineteen.day3;
 
-import sun.jvm.hotspot.jdi.IntegerTypeImpl;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
 
 import static java.util.stream.Collectors.*;
 import static main.java.common.Util.readfile;
@@ -35,7 +30,7 @@ public class DAY3 {
             for (int j = 0; j < claimGrid.size(); j++) {
                 List<Claim> emptyClaimList = new ArrayList<>();
                 claimGrid.get(i).add(emptyClaimList);
-                claimGrid.get(i).get(j).
+                claimGrid.get(i).get(j);
             }
 
         }
